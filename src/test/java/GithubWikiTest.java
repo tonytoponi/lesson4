@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byTagAndText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class TestGithubWiki {
+public class GithubWikiTest {
     @BeforeAll
     static void setUp() {
         Configuration.browserSize = "1920x1080";
@@ -18,7 +18,7 @@ public class TestGithubWiki {
     }
 
     @Test
-    void CheckSoftAssertions() {
+    void SoftAssertionsTest() {
         open("/selenide/selenide");
 
         String junitFiveCodeExample = """
