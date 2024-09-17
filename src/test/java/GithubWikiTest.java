@@ -18,7 +18,7 @@ public class GithubWikiTest {
     }
 
     @Test
-    void SoftAssertionsTest() {
+    void softAssertionsTest() {
         open("/selenide/selenide");
 
         String junitFiveCodeExample = """
